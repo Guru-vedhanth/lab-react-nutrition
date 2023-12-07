@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Poppins;
+}
+
+#foodBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    border: 1px solid black;
+    /* margin-left:80px; */
+}
+
+#foodBox img{
+    height:100px;
+    width:100px;
+}
+
+#foodcount input , #foodcount button{
+    padding: 10px;
+}
+
+/* #header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+} */
+
+#search{
+    padding: 10px;
+    margin: 10px;
+}
+
+#search :placeholder-shown{
+    font-family: Poppins;
+}
+
+#search input{
+    padding: 10px;
+    margin-top:10px;
+    width:300px;
+}
+
+#foodcount{
+    display: flex;
+    flex-direction: row;
+}
+
+#foodcount input{
+    width:150px;
+}
+
+#foodcount input ::placeholder{
+    font-family: Poppins;
+    font-weight: 800;
+}
+
+#foodcount button{
+    background-color: rgb(246, 255, 121);
+    font-family: Poppins;
+    font-weight: 800;
+    width:50px;
+}
+
+#list{
+    display: flex;
+    flex-direction: row;
+}
+
+#list h1{
+    font-size: 25px;
+}
+
+#list button{
+    background-color: rgb(255, 121, 139);
+    padding: 10px;
+    width:100px;
+    margin-left: 10px;
+    font-family: Poppins;
+    font-weight: 800;
+}
